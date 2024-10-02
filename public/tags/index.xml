@@ -4,5 +4,13 @@
         <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - Hucc cool Web</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hucc3309@gmail (Hucc)</managingEditor>
-            <webMaster>hucc3309@gmail (Hucc)</webMaster><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>hucc3309@gmail (Hucc)</webMaster><lastBuildDate>Tue, 24 Sep 2024 00:10:02 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Vscode</title>
+    <link>http://localhost:1313/tags/vscode/</link>
+    <pubDate>Tue, 24 Sep 2024 00:10:02 &#43;0800</pubDate>
+    <author>Hucc</author>
+    <guid>http://localhost:1313/tags/vscode/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>

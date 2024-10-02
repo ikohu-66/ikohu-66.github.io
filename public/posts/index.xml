@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hucc cool Web</title>
-        <link>http://localhost:1313/</link>
-        <description>Hugo theme - LoveIt</description>
+        <title>All Posts - Hucc cool Web</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>All Posts | Hucc cool Web</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hucc3309@gmail (Hucc)</managingEditor>
-            <webMaster>hucc3309@gmail (Hucc)</webMaster><lastBuildDate>Tue, 24 Sep 2024 00:10:02 &#43;0800</lastBuildDate>
-            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>hucc3309@gmail (Hucc)</webMaster><lastBuildDate>Tue, 24 Sep 2024 00:10:02 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Vscode调试笔记</title>
     <link>http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Tue, 24 Sep 2024 00:10:02 &#43;0800</pubDate>
