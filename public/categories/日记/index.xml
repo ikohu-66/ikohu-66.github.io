@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>日记 - Category - Hucc cool Web</title>
+        <link>http://localhost:1313/categories/%E6%97%A5%E8%AE%B0/</link>
+        <description>日记 - Category - Hucc cool Web</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hucc3309@gmail (Hucc)</managingEditor>
+            <webMaster>hucc3309@gmail (Hucc)</webMaster><lastBuildDate>Wed, 25 Sep 2024 00:20:44 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%97%A5%E8%AE%B0/" rel="self" type="application/rss+xml" /><item>
+    <title>9月日志</title>
+    <link>http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/</link>
+    <pubDate>Wed, 25 Sep 2024 00:20:44 &#43;0800</pubDate>
+    <author>Hucc</author>
+    <guid>http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/</guid>
+    <description><![CDATA[<h3 id="9月25日">9月25日</h3>
+<p>越贵的自助餐只会让人越深刻的认识到，人的有限性。🤢</p>
+<h3 id="9月26日">9月26日</h3>
+<p>秋招做题真的难，自己菜的真实。</p>]]></description>
+</item>
+</channel>
+</rss>

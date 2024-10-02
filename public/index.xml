@@ -4,15 +4,54 @@
         <link>http://localhost:1313/</link>
         <description>Hugo theme - LoveIt</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hucc3309@gmail (Hucc)</managingEditor>
-            <webMaster>hucc3309@gmail (Hucc)</webMaster><lastBuildDate>Tue, 24 Sep 2024 00:10:02 &#43;0800</lastBuildDate>
+            <webMaster>hucc3309@gmail (Hucc)</webMaster><lastBuildDate>Wed, 25 Sep 2024 00:20:44 &#43;0800</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>9月日志</title>
+    <link>http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/</link>
+    <pubDate>Wed, 25 Sep 2024 00:20:44 &#43;0800</pubDate>
+    <author>Hucc</author>
+    <guid>http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/</guid>
+    <description><![CDATA[<h3 id="9月25日">9月25日</h3>
+<p>越贵的自助餐只会让人越深刻的认识到，人的有限性。🤢</p>
+<h3 id="9月26日">9月26日</h3>
+<p>秋招做题真的难，自己菜的真实。</p>]]></description>
+</item>
+<item>
     <title>Vscode调试笔记</title>
     <link>http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Tue, 24 Sep 2024 00:10:02 &#43;0800</pubDate>
     <author>Hucc</author>
     <guid>http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[<h3 id="vscode调试笔记">vscode调试笔记</h3>
+<p>记录使用vscode调试的一些概念和基础，主要关于go调试，摆脱goland的第一步（太吃内存了）。</p>
+<h3 id="launchjson">launch.json</h3>
+<p>lacnchh.json 为调试配置文件，包括调试模式，调试的文件夹，环境，语言等。</p>
+<pre><code>```
+{
+&quot;version&quot;: &quot;0.2.0&quot;,
+&quot;configurations&quot;: [
+    {
+        &quot;name&quot;: &quot;Launch&quot;,//调试配置名
+        &quot;type&quot;: &quot;go&quot;,
+        &quot;request&quot;: &quot;launch&quot;,//有lanch 和attch 两种模式
+        &quot;mode&quot;: &quot;debug&quot;,
+        &quot;program&quot;: &quot;${fileDirname}&quot;,//在当前打开的文件开始调试，根据vscode文档可以陪不同的地方
+        &quot;env&quot;: {},
+        &quot;args&quot;: []//变量
+    }
+]
+</code></pre>
+<p>}</p>
+<h3 id="attach和lanch">attach和lanch</h3>
+<h4 id="lanch">lanch</h4>
+<p>定义：在 &ldquo;launch&rdquo; 模式下，调试器会启动一个新的程序实例，并立即开始调试该实例。
+用途：当你需要从头开始调试一个程序时，通常使用 &ldquo;launch&rdquo; 模式。这适用于你希望从程序的入口点开始调试，或者需要在程序启动时设置断点的情况。</p>
+<h4 id="attach">attach</h4>
+<p>attach&quot;：指示调试器附加到一个已经运行的进程。
+processId: 指定要附加的进程 ID。可以使用 ${command:PickProcess} 来选择进程。
+port: 指定调试器连接的端口（如果适用）。</p>
+<h3 id="heading"></h3>]]></description>
 </item>
 </channel>
 </rss>

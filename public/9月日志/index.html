@@ -4,44 +4,38 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Vscode调试笔记 - Hucc cool Web</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:url" content="http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/">
+        <title>9月日志 - Hucc cool Web</title><meta name="Description" content="Hugo theme - LoveIt"><meta property="og:url" content="http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/">
   <meta property="og:site_name" content="Hucc cool Web">
-  <meta property="og:title" content="Vscode调试笔记">
-  <meta property="og:description" content="vscode调试笔记 记录使用vscode调试的一些概念和基础，主要关于go调试，摆脱goland的第一步（太吃内存了）。
-launch.json lacnchh.json 为调试配置文件，包括调试模式，调试的文件夹，环境，语言等。
-``` { &#34;version&#34;: &#34;0.2.0&#34;, &#34;configurations&#34;: [ { &#34;name&#34;: &#34;Launch&#34;,//调试配置名 &#34;type&#34;: &#34;go&#34;, &#34;request&#34;: &#34;launch&#34;,//有lanch 和attch 两种模式 &#34;mode&#34;: &#34;debug&#34;, &#34;program&#34;: &#34;${fileDirname}&#34;,//在当前打开的文件开始调试，根据vscode文档可以陪不同的地方 &#34;env&#34;: {}, &#34;args&#34;: []//变量 } ] }
-attach和lanch lanch 定义：在 “launch” 模式下，调试器会启动一个新的程序实例，并立即开始调试该实例。 用途：当你需要从头开始调试一个程序时，通常使用 “launch” 模式。这适用于你希望从程序的入口点开始调试，或者需要在程序启动时设置断点的情况。
-attach attach&#34;：指示调试器附加到一个已经运行的进程。 processId: 指定要附加的进程 ID。可以使用 ${command:PickProcess} 来选择进程。 port: 指定调试器连接的端口（如果适用）。">
+  <meta property="og:title" content="9月日志">
+  <meta property="og:description" content="9月25日 越贵的自助餐只会让人越深刻的认识到，人的有限性。🤢
+9月26日 秋招做题真的难，自己菜的真实。">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-09-24T00:10:02+08:00">
-    <meta property="article:modified_time" content="2024-09-24T00:10:02+08:00">
-    <meta property="article:tag" content="Vscode">
+    <meta property="article:published_time" content="2024-09-25T00:20:44+08:00">
+    <meta property="article:modified_time" content="2024-09-25T00:20:44+08:00">
+    <meta property="article:tag" content="9月">
     <meta property="og:image" content="http://localhost:1313/images/hucc2.jpeg">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/hucc2.jpeg">
-  <meta name="twitter:title" content="Vscode调试笔记">
-  <meta name="twitter:description" content="vscode调试笔记 记录使用vscode调试的一些概念和基础，主要关于go调试，摆脱goland的第一步（太吃内存了）。
-launch.json lacnchh.json 为调试配置文件，包括调试模式，调试的文件夹，环境，语言等。
-``` { &#34;version&#34;: &#34;0.2.0&#34;, &#34;configurations&#34;: [ { &#34;name&#34;: &#34;Launch&#34;,//调试配置名 &#34;type&#34;: &#34;go&#34;, &#34;request&#34;: &#34;launch&#34;,//有lanch 和attch 两种模式 &#34;mode&#34;: &#34;debug&#34;, &#34;program&#34;: &#34;${fileDirname}&#34;,//在当前打开的文件开始调试，根据vscode文档可以陪不同的地方 &#34;env&#34;: {}, &#34;args&#34;: []//变量 } ] }
-attach和lanch lanch 定义：在 “launch” 模式下，调试器会启动一个新的程序实例，并立即开始调试该实例。 用途：当你需要从头开始调试一个程序时，通常使用 “launch” 模式。这适用于你希望从程序的入口点开始调试，或者需要在程序启动时设置断点的情况。
-attach attach&#34;：指示调试器附加到一个已经运行的进程。 processId: 指定要附加的进程 ID。可以使用 ${command:PickProcess} 来选择进程。 port: 指定调试器连接的端口（如果适用）。">
+  <meta name="twitter:title" content="9月日志">
+  <meta name="twitter:description" content="9月25日 越贵的自助餐只会让人越深刻的认识到，人的有限性。🤢
+9月26日 秋招做题真的难，自己菜的真实。">
 <meta name="application-name" content="Hucc Web">
-<meta name="apple-mobile-web-app-title" content="Hucc Web"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/title.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/" /><link rel="next" href="http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<meta name="apple-mobile-web-app-title" content="Hucc Web"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/images/title.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/" /><link rel="prev" href="http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Vscode调试笔记",
+        "headline": "9月日志",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/localhost:1313\/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0\/"
-        },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "vscode","wordcount":  48 ,
-        "url": "http:\/\/localhost:1313\/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0\/","datePublished": "2024-09-24T00:10:02+08:00","dateModified": "2024-09-24T00:10:02+08:00","publisher": {
+            "@id": "http:\/\/localhost:1313\/9%E6%9C%88%E6%97%A5%E5%BF%97\/"
+        },"image": ["http:\/\/localhost:1313\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "9月","wordcount":  4 ,
+        "url": "http:\/\/localhost:1313\/9%E6%9C%88%E6%97%A5%E5%BF%97\/","datePublished": "2024-09-25T00:20:44+08:00","dateModified": "2024-09-25T00:20:44+08:00","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "http:\/\/localhost:1313\/images\/avatar.png"},"author": {
                 "@type": "Person",
@@ -126,9 +120,9 @@ attach attach&#34;：指示调试器附加到一个已经运行的进程。 proc
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Vscode调试笔记</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Hucc</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E7%AB%A0/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>技术文章</a>&nbsp;<a href="/categories/%E5%8D%9A%E5%AE%A2/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>博客</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-09-24">2024-09-24</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;48 words&nbsp;
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">9月日志</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Hucc</a></span>&nbsp;<span class="post-category">included in <a href="/categories/%E6%97%A5%E8%AE%B0/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>日记</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-09-25">2024-09-25</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;4 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -139,73 +133,40 @@ attach attach&#34;：指示调试器附加到一个已经运行的进程。 proc
   <ul>
     <li>
       <ul>
-        <li><a href="#vscode调试笔记">vscode调试笔记</a></li>
-        <li><a href="#launchjson">launch.json</a></li>
-        <li><a href="#attach和lanch">attach和lanch</a>
-          <ul>
-            <li><a href="#lanch">lanch</a></li>
-            <li><a href="#attach">attach</a></li>
-          </ul>
-        </li>
-        <li><a href="#heading"></a></li>
+        <li><a href="#9月25日">9月25日</a></li>
+        <li><a href="#9月26日">9月26日</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h3 id="vscode调试笔记">vscode调试笔记</h3>
-<p>记录使用vscode调试的一些概念和基础，主要关于go调试，摆脱goland的第一步（太吃内存了）。</p>
-<h3 id="launchjson">launch.json</h3>
-<p>lacnchh.json 为调试配置文件，包括调试模式，调试的文件夹，环境，语言等。</p>
-<pre><code>```
-{
-&quot;version&quot;: &quot;0.2.0&quot;,
-&quot;configurations&quot;: [
-    {
-        &quot;name&quot;: &quot;Launch&quot;,//调试配置名
-        &quot;type&quot;: &quot;go&quot;,
-        &quot;request&quot;: &quot;launch&quot;,//有lanch 和attch 两种模式
-        &quot;mode&quot;: &quot;debug&quot;,
-        &quot;program&quot;: &quot;${fileDirname}&quot;,//在当前打开的文件开始调试，根据vscode文档可以陪不同的地方
-        &quot;env&quot;: {},
-        &quot;args&quot;: []//变量
-    }
-]
-</code></pre>
-<p>}</p>
-<h3 id="attach和lanch">attach和lanch</h3>
-<h4 id="lanch">lanch</h4>
-<p>定义：在 &ldquo;launch&rdquo; 模式下，调试器会启动一个新的程序实例，并立即开始调试该实例。
-用途：当你需要从头开始调试一个程序时，通常使用 &ldquo;launch&rdquo; 模式。这适用于你希望从程序的入口点开始调试，或者需要在程序启动时设置断点的情况。</p>
-<h4 id="attach">attach</h4>
-<p>attach&quot;：指示调试器附加到一个已经运行的进程。
-processId: 指定要附加的进程 ID。可以使用 ${command:PickProcess} 来选择进程。
-port: 指定调试器连接的端口（如果适用）。</p>
-<h3 id="heading"></h3>
+            </div><div class="content" id="content"><h3 id="9月25日">9月25日</h3>
+<p>越贵的自助餐只会让人越深刻的认识到，人的有限性。🤢</p>
+<h3 id="9月26日">9月26日</h3>
+<p>秋招做题真的难，自己菜的真实。</p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>Updated on 2024-09-24</span>
+                <span>Updated on 2024-09-25</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/index.md" target="_blank">Read Markdown</a>
+                            <a class="link-to-markdown" href="/9%E6%9C%88%E6%97%A5%E5%BF%97/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/" data-title="Vscode调试笔记" data-hashtags="vscode"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/" data-hashtag="vscode"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/" data-title="Vscode调试笔记"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/" data-title="Vscode调试笔记"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/" data-title="Vscode调试笔记"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/" data-title="9月日志" data-hashtags="9月"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/" data-hashtag="9月"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/" data-title="9月日志"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/" data-title="9月日志"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/9%E6%9C%88%E6%97%A5%E5%BF%97/" data-title="9月日志"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/vscode/">Vscode</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/9%E6%9C%88/">9月</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav">
-            <a href="/9%E6%9C%88%E6%97%A5%E5%BF%97/" class="next" rel="next" title="9月日志">9月日志<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/vscode%E8%B0%83%E8%AF%95%E7%AC%94%E8%AE%B0/" class="prev" rel="prev" title="Vscode调试笔记"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Vscode调试笔记</a></div>
 </div>
 </article></div>
             </main><footer class="footer">
