@@ -3,7 +3,7 @@ title = 'Vscode调试笔记'
 date = 2024-09-24T00:10:02+08:00
 draft = true
 tags = ["vscode"]
-categories = ["技术文章", "博客"]
+Categories = ["技术文章", "博客"]
 +++
 ### vscode调试笔记
 记录使用vscode调试的一些概念和基础，主要关于go调试，摆脱goland的第一步（太吃内存了）。
